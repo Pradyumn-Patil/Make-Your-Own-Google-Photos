@@ -1,0 +1,471 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    z-index: 1;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 15px;
+    background: #ddd;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+a,a:hover{
+    color: #333;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Navigation Bar */
+/* Logo */
+/*#log{
+    position: absolute;
+    z-index: 8;
+    top: -5px;
+    left: 10px;
+}
+#log #cir{
+    position: relative;
+    color: #ddd;
+    background: #fff;
+    width: 31.25px;
+    height: 50px;
+    line-height: 50px;
+    text-indent: 90px;
+    font-size: 31.25px;
+}
+#log #i{
+    color: #222;
+    font-size: 31.25px;
+    left: 18.75px;
+    font-weight: 800;
+}
+#log #ntro{
+    font-size: 28px;
+    color: #fff;
+}*/
+
+/* Bar */
+/*#nav-bar{
+    position: relative;
+    box-sizing: border-box;
+    background: rgb(51, 51, 51);
+    font-size: 17px;
+    font-weight: 500;
+    text-align: right;
+    padding-right: 10px;
+    height: 70px;
+}*/
+
+/* list elements */
+/*a li{
+    position: relative;
+    margin-top: -10px; 
+    display: inline-block;
+    height: 60px;
+    padding: 15px 18px 0px;
+    line-height: 60px;
+}
+
+#home{
+    border-bottom: solid 5px white;
+}
+
+a li{
+    color: #ddd;
+}
+
+a li:hover{
+    cursor: pointer;
+    color: white;
+    border-bottom: solid 5px white;
+}
+/* Navigation Bar Ends */
+/* full logo */
+.logo{
+    display: block;
+    padding-right: 15px;
+}
+/* upper i */
+#i{
+    position: relative;
+    z-index: 8;
+    left: 30px;
+    display: inline;
+    line-height: 80px;
+    font-size: 50px;
+    color: #fff;
+    font-family: "LCALLIG";
+    width: 50px;
+    height: 80px;
+}
+/* logo background */
+#cir{
+    display: inline-block;
+    line-height: 85px;
+    text-indent: 8px;
+    background: #333;
+    font-size: 50px;
+    font-family: "LCALLIG";
+    border-radius: 100%;
+    width: 50px;
+    height: 80px;
+    transform: rotate(35deg);
+}
+/* logo text */
+#ntro{
+    display: inline-block;
+    font-family: "LCALLIG";
+    font-size: 44.8px;
+}
+
+/* Form */
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+    display: block;
+    padding: 10px 48px 10px 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 550px;
+    margin: 25px 0px 45px;
+    border: none;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover{
+    box-shadow: 0px 0px 20px rgba(51, 51, 51, 0.5);
+}
+
+/* Content Ends */
+
+/* Footer */
+#footer{
+    display: block;
+    background: #333;
+    color: #ddd;
+    text-align: center;
+    font-size: 15px;
+    padding: 30px;
+    font-family: Georgia;
+    font-variant: small-caps;
+    word-spacing: 5px;
+}
+/* Footer Ends */
+
+
+/* Contacts Page */
+#_4 #content{
+    padding: 10px;
+    margin: 100px auto 84.5px;
+}
+
+.clearfix{
+    display: table;
+    content: "";
+    clear: all;
+}
+
+#box-1{
+    border-right: solid 4px #aaa;
+    float: left;
+    padding: 100px 20px 100px 10px;
+    margin-left: 60px;
+}
+#box-1 .heading{
+    margin: 0px;
+}
+
+#box-2{
+    float: left;
+    margin: 100px 0;
+    margin-left: 30px;
+}
+#box-2 #text{
+    font-size: 20px;
+}
+
+#text p{
+    padding-left: 3px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#h1{
+    display: inline-block;
+}
+
+
+/* Categories Page */
+#_3 #content{
+    padding: 10px;
+    margin: 25px auto 10px;
+}
+
+#content h4{
+    padding-bottom: 10px;
+    border-bottom: solid 2px #ccc;
+    margin-bottom: 30px;
+    margin-top: -10px;
+    text-indent: 50px;
+}
+
+#title-head{
+    border-radius: 10px;
+    color: #aaa;
+    text-decoration: none;
+}
+
+#algo{
+    background: url(../images/algorithm.jpg);
+    background-size: 100%;
+}
+
+#archi{
+    background: url(../images/architecture.jpg);
+    background-size: 100%;
+}
+
+#cal{
+    background: url(../images/cal.jpg);
+    background-size: 100%;
+}
+
+#database{
+    background: url(../images/database.jpg);
+    background-size: 100%;
+}
+
+#prob{
+    background: url(../images/probability.jpg);
+    background-size: 100%;
+}
+
+#caos{
+    background: url(../images/os.jpg);
+    background-size: 100%;
+}
+
+.img:hover{
+    box-shadow: 0px 0px 20px rgba(51, 51, 51, 0.8);
+}
+
+.img:hover #p{
+    display: inline-block;
+    color: white;
+    opacity: 1;
+}
+
+hr{
+    position: relative;
+    width: 950px;
+    height: 2px;
+    border: none;
+    background: rgba(151, 151, 151, 0.5 );
+}
+
+#box0{
+    margin-bottom: 8px;
+}
+
+#close{
+    display: inline-block;
+    position: absolute;
+    color: #aaa;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+    font-weight: bold;
+    transform: translate(620px, 0px);
+}
+
+#anslist li{
+    display: block;
+    text-indent: 10px;
+}
+
+#topic-head{
+    display: inline-block;
+    font-variant: small-caps;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border-bottom: solid 3px #ddd;
+}
+
+#topic-desc{
+    padding: 0 10px;
+    font-size: 14px;
+    text-indent: 50px;
+}
+
+#Q{
+    display: inline-block;
+    transform: translateY(1px);
+    font-size: 25px;
+    font-weight: 800;
+    margin-right: 5px;
+    margin-left: 10px;
+    color: #ddd;
+}
+
+small#sml{
+    padding-left: 10px;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.question{
+    font-size: 18px;
+    text-align: left;
+    color: #ddd;
+    background: #333;
+    padding: 0 5px 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 10px rgba(51, 51, 51, 0.8);
+}
+
+/* Login Page */
+#_5 #content{
+    margin: 30px auto;
+}
+
+#_5 #content .heading,
+#_6 #content .heading{
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+
+.up-in{
+    display: inline-block;
+    position: relative;
+    height: 37px;
+    font-weight: bold;
+    line-height: 37px;
+    padding: 0px 25px;
+    color: #ddd;
+    background: #333;
+    border: none;
+    border-radius: 2px;
+}
+.up-in:hover,select:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(18, 18, 18, 0.8);
+}
+
+#button-block{
+    position: relative;
+    margin-top: 10px;
+}
+
+/* Sign Up */
+#_6 #content{
+    margin: 0px auto 0px;
+}
+
+#name,#mailbox{
+    position: relative;
+    bottom: 42px;
+}
+
+#_6 #button-block{
+    top: -60px;
+    margin-bottom: -50px;
+}
+
+#sign-up{
+    display: block;
+    position: relative;
+    top: -50px;
+}
+#log-link{
+    display: inline-block;
+    position: relative;
+    top: -31px;
+}
+#already{
+    display: block;
+    top: -31px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#ta{
+    display: none;
+    text-align: center;
+    margin: 151.5px auto;
+    font-size: 12px;
+}
+
+#try:hover{
+    text-decoration: underline;
+}
+
+#hea{
+    box-shadow: 0 5px 8px rgba(51, 51, 51, 0.70);
+    color: #ddd;
+    background: #333;
+    display: block;
+    font-family: LCALLIG;
+    font-size: 32px;
+    margin: -10px -10px 0;
+    padding: 10px 10px 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: solid 3px #333; 
+}
+
+.tit{
+    display: inline-block;
+    font-variant: small-caps;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.det{
+    display: inline-block;
+    font-family: "Arial";
+    font-size: 1.15em;
+}
+
+#first{
+    display: inline-block;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.heading.ask{
+    margin-top: 55px;
+}
+
+#question{
+    width: 580px;
+    display: inline;
+}
+
+#ask-ta{
+    display: none;
+    text-align: center;
+    margin: 10px auto 245px;
+    font-size: 12px;
+}
+
+.ans_sub{
+    display: none;
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.pop{
+    display: none;
+    text-align: center;
+    margin: 195.5px auto;
+    font-size: 12px;
+}
