@@ -50,11 +50,11 @@ To get started with the Enquiry Management System for SME, follow these steps:
 
 ## Contribution Guidelines
 
-If you'd like to contribute to the project, please follow our [contribution guidelines](CONTRIBUTING.md). We welcome your input and appreciate your support in making this project even better.
+If you'd like to contribute to the project, please follow our [contribution guidelines] We welcome your input and appreciate your support in making this project even better.
 
 ## License
 
-This Enquiry Management System for SME is licensed under the [MIT License](LICENSE), which means you are free to use, modify, and distribute the code.
+This Enquiry Management System for SME is licensed under the [MIT License], which means you are free to use, modify, and distribute the code.
 
 Feel free to explore the features, contribute to the project, and make the Enquiry Management System an even more valuable tool for SMEs! If you encounter any issues or have suggestions, please open an [issue](https://github.com/your-username/Enquiry-Management-System/issues).
 
