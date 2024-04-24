@@ -71,10 +71,7 @@ This command will initiate the server in detached mode, allowing it to run in th
 
 ### Initial Setup
 
-Once everything is set up correctly, you should encounter an initial setup wizard upon accessing the website for the first time. 
-
-
-Here's what you need to do:
+an initial setup wizard upon accessing the website for the first time. 
 
 1. Enter a new username and password when prompted.
 
