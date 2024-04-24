@@ -1,24 +1,19 @@
 
 
-[![License](https://img.shields.io/github/license/viktorstrate/photoview)](./LICENSE.md)
-[![GitHub contributors](https://img.shields.io/github/contributors/viktorstrate/photoview)](https://github.com/viktorstrate/photoview/graphs/contributors)
-[![Docker Pulls](https://img.shields.io/docker/pulls/viktorstrate/photoview)](https://hub.docker.com/r/viktorstrate/photoview)
-[![Docker builds](https://github.com/photoview/photoview/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/photoview/photoview/actions/workflows/build.yml)
-[![codecov](https://codecov.io/gh/photoview/photoview/branch/master/graph/badge.svg?token=AATZKC93F7)](https://codecov.io/gh/photoview/photoview)
-
 ![screenshot](./images/Tabswitching.png)
 ![screenshot](./images/download.png)
-Photoview is a simple and user-friendly photo gallery that's made for photographers and aims to provide an easy and fast way to navigate directories, with thousands of high-resolution photos.
+
+
+So, imagine you're tired of Google Photos holding you back since you cannot upload all memories since its  behind a paywall. Plus, who knows where those photos really end up? It's like sending your prized possessions off to some sketchy storage unit run by a random guy 
+
+So you build your own Google photos  , Just point the code  to your photo stash, and voila! It goes through your storage instantly And the best part? Your memories stay on your own hardware right where they belong, on your own trusted server, away from 's questionable storage unit .
 
 You configure Photoview to look for photos and videos within a directory on your file system. The scanner automatically picks up your media and start to generate thumbnail images to make browsing super fast.
 
 When your media has been scanned they show up on the website, organised in the same way as on the filesystem.
 
-?feel free to join the Discord server after i lear how to mange the inivite setting ( link will be updated soon)
-## Demo site
+feel free to join the Discord server after i lear how to mange the inivite setting ( link will be updated soon)
 
-Username: **demo**
-Password: **demo**
 
 ## Contents
 
@@ -26,7 +21,7 @@ Password: **demo**
 - [Main features](#main-features)
 - [Supported Platforms](#supported-platforms)
 - [Why yet another self-hosted photo gallery](#why-yet-another-self-hosted-photo-gallery)
-- [Getting started - Setup with Docker](#getting-started---setup-with-docker)
+- [Setup with Docker](#getting-started---setup-with-docker)
 - [Set up development environment](#setup-development-environment)
 - [Sponsors](#sponsors)
 
@@ -50,62 +45,60 @@ Password: **demo**
 - [YunoHost](https://github.com/YunoHost-Apps/photoview_ynh)
 
 ## Why yet another self-hosted photo gallery
-
-There exists a lot of open-source self-hosted photo galleries already. Here are some, just to mention a few.
-
+Here are some, just to mention a ew from where i took inspiration adn some help tbh , 
+There exists a lot of open-source self-hosted photo galleries already. 
+- [Photoview]https://github.com/photoview/photoview
 - [Piwigo](https://github.com/Piwigo/Piwigo)
-- [LibrePhotos](https://github.com/LibrePhotos/librephotos)
 - [Photoprism](https://github.com/photoprism/photoprism)
-- [Lychee](https://github.com/LycheeOrg/Lychee)
 
-So why another one?
-I love taking photos, and I store all of them on my local fileserver.
-This is great because I can organize my photos directly on the filesystem so it's easy to move them or take backups. I want to be able to control where and how the photos are stored.
 
-The problem is however that RAW images are extremely tedious to navigate from a fileserver, even over the local network.
+Why another photo management solution, you ask?
 
-My server holds a lot of old family pictures, that I would like my family to have access to as well.
-And some of the pictures I would like to easily be able to share with other people without the hassle of them having to make an account first.
+Well, I'm passionate about photography, and I've meticulously organized my entire collection on my local file server. It's fantastic because I have full control over where and how my photos are stored, making it easy to move them around or create backups.
 
-Thus I need a solution that can do the following:
+But here's the snag: navigating through RAW images on a file server, especially over a local network, is a real headache.
 
-- A scan based approach that automatically organises my photos
-- Support RAW and EXIF parsing
-- Have support for multiple users and ways to share albums and photos also publicly
-- Be simple and fast to use
+Plus, I've got a treasure trove of old family photos on that server, and I'd love for my family to access them easily. And sometimes, I just want to share certain photos with friends without them having to jump through hoops to create an account.
 
-All of the photo galleries can do a lot of what I need, but no single one can do it all.
+So, what's the solution I'm after?
 
-## Getting started - Setup with Docker
+A scan-based approach that can automatically sort through my photos.
+Support for RAW and EXIF parsing to maintain all those important details.
+Capability for multiple users with options to share albums and photos publicly.
+And, of course, it needs to be user-friendly and lightning-fast.
+While many photo galleries come close, none quite hit the mark on all fronts.
 
-> This section describes how to get Photoview up and running on your server with Docker.
-> Make sure you have Docker and docker-compose installed and running on your server
+## Setup with Docker
 
-1. Make a new `docker-compose.yml` file on your computer, and copy the content of [docker-compose.example.yml](/docker-compose.example.yml) to the new file.
-2. Edit `docker-compose.yml`, find the comments starting with `Change This:`, and change the values, to properly match your setup. If you are just testing locally, you don't have to change anything.
-3. Start the server by running the following command
+
+1. check  that Docker and docker-compose are installed and operational on your server.
+
+2. Create a new `docker-compose.yml` file on your local machine. You can find an example file at [docker-compose.example.yml](/docker-compose.example.yml). Copy the contents of this example file into your newly created `docker-compose.yml`.
+
+3. Open the `docker-compose.yml` file and locate the comments marked with `Change This:`. Adjust the values as needed to match your server setup. If you're just testing locally, you may not need to modify anything.
+
+4. Once you've made the necessary changes (if any), it's time to start the server. Execute the following command in your terminal:
 
 ```bash
 $ docker-compose up -d
 ```
 
-If the endpoint or the port hasn't been changed in the `docker-compose.yml` file, Photoview can now be accessed at http://localhost:8000
+This command will initiate the server in detached mode, allowing it to run in the background.
 
 ### Initial Setup
 
-If everything is setup correctly, you should be presented with an initial setup wizard, when accessing the website the first time.
+Once everything is set up correctly, you should encounter an initial setup wizard upon accessing the website for the first time. 
 
-![Initial setup](./screenshots/initial-setup.png)
 
-Enter a new username and password.
+Here's what you need to do:
 
-For the photo path, enter the path in the docker container where your photos are located.
-This can be set from the `docker-compose.yml` file under `api` -> `volumes`.
-The default location is `/photos`
+1. Enter a new username and password when prompted.
 
-A new admin user will be created, with access to the photos located at the path provided under the initial setup.
+2. For the photo path, specify the path within the Docker container where your photos are stored. This can be configured in the `docker-compose.yml` file under `api` -> `volumes`. By default, the location is set to `/photos`.
 
-The photos will have to be scanned before they show up, you can start a scan manually, by navigating to `Settings` and clicking on `Scan All`
+3. Upon completion of the initial setup, a new admin user will be created with access to the photos located at the specified path.
+
+4. Keep in mind that the photos will need to be scanned before they appear in the gallery. You can initiate a manual scan by navigating to `Settings` and clicking on `Scan All`.
 
 ## Set up development environment
 
