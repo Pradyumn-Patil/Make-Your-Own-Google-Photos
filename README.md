@@ -1,4 +1,4 @@
-<img src="./images/photoview-logo.svg" height="92px" alt="photoview logo" />
+
 
 [![License](https://img.shields.io/github/license/viktorstrate/photoview)](./LICENSE.md)
 [![GitHub contributors](https://img.shields.io/github/contributors/viktorstrate/photoview)](https://github.com/viktorstrate/photoview/graphs/contributors)
@@ -7,7 +7,7 @@
 [![codecov](https://codecov.io/gh/photoview/photoview/branch/master/graph/badge.svg?token=AATZKC93F7)](https://codecov.io/gh/photoview/photoview)
 
 ![screenshot](./images/Tabswitching.png)
-![screenshot](./images/timeline.png)
+![screenshot](./images/download.png)
 Photoview is a simple and user-friendly photo gallery that's made for photographers and aims to provide an easy and fast way to navigate directories, with thousands of high-resolution photos.
 
 You configure Photoview to look for photos and videos within a directory on your file system. The scanner automatically picks up your media and start to generate thumbnail images to make browsing super fast.
