@@ -1,7 +1,8 @@
 
 # Make-Your-Own-Google-Photos
 ![screenshot](./images/Tabswitching.png)
-![screenshot](./images/download.png)
+
+![screenshot2](./images/download.png)
 
 
 So, imagine you're tired of Google Photos holding you back since you cannot upload all memories since its  behind a paywall. Plus, who knows where those photos really end up? It's like sending your prized possessions off to some sketchy storage unit run by a random guy 
