@@ -14,17 +14,6 @@ When your media has been scanned they show up on the website, organised in the s
 
 feel free to join the Discord server after i lear how to mange the inivite setting ( link will be updated soon)
 
-
-## Contents
-
-- [Demo site](#demo-site)
-- [Main features](#main-features)
-- [Supported Platforms](#supported-platforms)
-- [Why yet another self-hosted photo gallery](#why-yet-another-self-hosted-photo-gallery)
-- [Setup with Docker](#setup-with-docker)
-- [Set up development environment](#setup-development-environment)
-- [Sponsors](#sponsors)
-
 ## Main features
 
 - **Closely tied to the file system**. The website presents the images found on the local filesystem of the server, directories are mapped to albums.
@@ -35,6 +24,8 @@ feel free to join the Discord server after i lear how to mange the inivite setti
 - **Face recognition**. Faces will automatically be detected in photos, and photos of the same person will be grouped together.
 - **Performant**. Thumbnails are automatically generated and photos first load when they are visible on the screen. In full screen, thumbnails are displayed until the high resolution image has been fully loaded.
 - **Secure**. All media resources are protected with a cookie-token, all passwords are properly hashed, and the API uses a strict [CORS policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS).
+
+
 
 ## Supported platforms
 
