@@ -21,7 +21,7 @@ feel free to join the Discord server after i lear how to mange the inivite setti
 - [Main features](#main-features)
 - [Supported Platforms](#supported-platforms)
 - [Why yet another self-hosted photo gallery](#why-yet-another-self-hosted-photo-gallery)
-- [Setup with Docker](#getting-started---setup-with-docker)
+- [Setup with Docker](#setup-with-docker)
 - [Set up development environment](#setup-development-environment)
 - [Sponsors](#sponsors)
 
@@ -100,20 +100,21 @@ Here's what you need to do:
 
 4. Keep in mind that the photos will need to be scanned before they appear in the gallery. You can initiate a manual scan by navigating to `Settings` and clicking on `Scan All`.
 
-## Set up development environment
+## Setting Up Development Environment
 
-### Local setup
+### Local Setup
 
-1. Install a local mysql server, and make a new database
-2. Rename `/api/example.env` to `.env` and update the `MYSQL_URL` field
-3. Rename `/ui/example.env` to `.env`
+1. Begin by installing a local MySQL server and create a new database.
 
-### Start API server
+2. Rename `/api/example.env` to `.env` and update the `MYSQL_URL` field accordingly.
 
-Make sure [golang](https://golang.org/) is installed.
+3. Similarly, rename `/ui/example.env` to `.env`.
 
-Some C libraries are needed to compile the API, see [go-face requirements](https://github.com/Kagami/go-face#requirements) for more details.
-They can be installed as shown below:
+### Starting the API Server
+
+Ensure that [GoLang](https://golang.org/) is installed on your system.
+
+To compile the API, certain C libraries are required. Refer to [go-face requirements](https://github.com/Kagami/go-face#requirements) for detailed information. You can install these libraries using the following commands:
 
 ```sh
 # Ubuntu
@@ -121,14 +122,15 @@ sudo add-apt-repository ppa:strukturag/libheif
 sudo add-apt-repository ppa:strukturag/libde265
 sudo apt-get update
 sudo apt-get install libdlib-dev libblas-dev libatlas-base-dev liblapack-dev libjpeg-turbo8-dev libheif-dev
+
 # Debian
 sudo apt-get install libdlib-dev libblas-dev libatlas-base-dev liblapack-dev libjpeg62-turbo-dev libheif-dev
+
 # macOS
 brew install dlib libheif
-
 ```
 
-Then run the following commands:
+Then, execute the following commands:
 
 ```bash
 cd ./api
@@ -136,10 +138,11 @@ go install
 go run server.go
 ```
 
-### Start UI server
+### Starting the UI Server
 
-Make sure [node](https://nodejs.org/en/) is installed.
-In a new terminal window run the following commands:
+Ensure that [Node.js](https://nodejs.org/en/) is installed on your system.
+
+In a new terminal window, navigate to the `ui` directory and run the following commands:
 
 ```bash
 cd ./ui
@@ -147,47 +150,4 @@ npm install
 npm start
 ```
 
-The site can now be accessed at [localhost:1234](http://localhost:1234).
-And the graphql playground at [localhost:4001](http://localhost:4001)
-
-## Sponsors
-
-<table>
-<tr>
-  <td>
-    <a href="https://github.com/ericerkz">
-      <img src="https://avatars.githubusercontent.com/u/79728329?v=4" height="auto" width="100" style="border-radius:50%"><br/>
-      <b>@ericerkz</b>
-    </a>
-  </td>
-  <td>
-    <a href="https://github.com/robin-moser">
-      <img src="https://avatars.githubusercontent.com/u/26254821?v=4" height="auto" width="100" style="border-radius:50%"><br/>
-      <b>@robin-moser</b>
-    </a>
-  </td>
-  <td>
-    <a href="https://github.com/Revorge">
-      <img src="https://avatars.githubusercontent.com/u/32901816?v=4" height="auto" width="100" style="border-radius:50%"><br/>
-      <b>@Revorge</b>
-    </a>
-  </td>
-  <td>
-    <a href="https://github.com/deexno">
-      <img src="https://avatars.githubusercontent.com/u/50229919?v=4" height="auto" width="100" style="border-radius:50%"><br/>
-      <b>@deexno</b>
-    </a>
-  </td>
-  <td>
-    <a href="https://github.com/FKrauss">
-      <img src="https://avatars.githubusercontent.com/u/4820683?v=4" height="auto" width="100" style="border-radius:50%"><br/>
-      <b>@FKrauss</b>
-    </a>
-  </td>
-  <td>
-    <a href="https://github.com/jupblb">
-      <img src="https://avatars.githubusercontent.com/u/3370617?v=4" height="auto" width="100" style="border-radius:50%"><br/>
-      <b>@jupblb</b>
-    </a>
-  </td>
-</table>
+You can now access the site at [localhost:1234](http://localhost:1234), and the GraphQL playground at [localhost:4001](http://localhost:4001).
