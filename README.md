@@ -27,15 +27,8 @@ feel free to join the Discord server after i lear how to mange the inivite setti
 
 
 
-## Supported platforms
 
-- [Docker](https://hub.docker.com/r/viktorstrate/photoview/)
-- [Arch Linux Aur](https://aur.archlinux.org/packages/photoview)
-- [Unraid](https://forums.unraid.net/topic/103028-support-photoview-corneliousjd-repo/)
-- EmbassyOS: [announcement](https://start9labs.medium.com/new-service-photoview-72ee681b2ff0), [repo](https://github.com/Start9Labs/embassyos-photoview-wrapper)
-- [YunoHost](https://github.com/YunoHost-Apps/photoview_ynh)
-
-## Why yet another self-hosted photo gallery
+## Other self-hosted photo gallery
 Here are some, just to mention a ew from where i took inspiration adn some help tbh , 
 There exists a lot of open-source self-hosted photo galleries already. 
 - [Photoview]https://github.com/photoview/photoview
