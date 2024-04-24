@@ -1,0 +1,369 @@
+{
+  "album_filter": {
+    "only_favorites": "Pokaż tylko ulubione",
+    "sort": "Sortuj",
+    "sort_by": "Sortuj",
+    "sorting_options": {
+      "date_imported": "Data zaimportowania",
+      "date_shot": "Data wykonania",
+      "title": "Tytuł",
+      "type": "Rodzaj"
+    }
+  },
+  "general": {
+    "action": {
+      "add": "Dodaj",
+      "cancel": "Anuluj",
+      "remove": "Usuń",
+      "save": "Zapisz"
+    },
+    "loading": {
+      "album": "Ładowanie albumu",
+      "default": "Ładowanie...",
+      "page": "Ładowanie strony",
+      "paginate": {
+        "faces": "Ładowanie kolejnych osób",
+        "media": "Ładowanie kolejnych mediów"
+      },
+      "shares": "Ładowanie udostępnionych..."
+    }
+  },
+  "header": {
+    "search": {
+      "loading": "Rezultaty ładowania...",
+      "no_results": "Nie znaleziono wyników",
+      "placeholder": "Szukaj",
+      "result_type": {
+        "albums": "Albumy",
+        "media": "Multimedia"
+      }
+    }
+  },
+  "login_page": {
+    "field": {
+      "password": "Hasło",
+      "submit": "Zaloguj się",
+      "username": "Nazwa użytkownika"
+    },
+    "initial_setup": {
+      "field": {
+        "photo_path": {
+          "label": "Ścieżka zdjęcia",
+          "placeholder": "/sciezka/do/zdjec"
+        },
+        "submit": "Konfiguracja Photoview"
+      },
+      "title": "Konfiguracja początkowa"
+    },
+    "welcome": "Witaj w Photoview"
+  },
+  "meta": {
+    "description": "Prosta i przyjazna dla użytkownika galeria zdjęć"
+  },
+  "people_page": {
+    "action_label": {
+      "change_label": "Zmień etykietę",
+      "detach_images": "Odłącz twarz",
+      "merge_people": "Połącz twarze",
+      "move_faces": "Przenieś twarze"
+    },
+    "face_group": {
+      "label_placeholder": "Etykieta",
+      "unlabeled": "Nieoznakowany",
+      "unlabeled_person": "Nieoznakowana osoba"
+    },
+    "modal": {
+      "action": {
+        "merge": "Połącz"
+      },
+      "detach_image_faces": {
+        "action": {
+          "detach": "Odłącz zdjęcia twarzy",
+          "select_images": "Zaznacz zdjęcia do odłączenia"
+        },
+        "description": "Odłącz wybrane zdjęcia w tej grupie twarzy i przenieś je do nowej grupy twarzy",
+        "title": "Odłącz zdjęcia twarzy"
+      },
+      "merge_face_groups": {
+        "description": "Wszystkie obrazy w tej grupie twarzy zostaną połączone z wybraną grupą twarzy.",
+        "destination_table": {
+          "title": "Wybierz twarz"
+        },
+        "title": "Połącz grupy twarzy"
+      },
+      "move_image_faces": {
+        "description": "Przenieś wybrane obrazy tej grupy twarzy do innej grupy twarzy",
+        "destination_face_group_table": {
+          "move_action": "Przenieś twarze z obrazu",
+          "title": "Wybierz docelową grupę twarzy"
+        },
+        "image_select_table": {
+          "next_action": "Dalej",
+          "title": "Wybierz obrazy do przeniesienia"
+        },
+        "title": "Przenieś twarze z obrazu"
+      }
+    },
+    "recognize_unlabeled_faces_button": "Rozpoznaj nieoznakowane twarze",
+    "tableselect_face_group": {
+      "search_faces_placeholder": "Szukaj twarzy..."
+    },
+    "tableselect_image_faces": {
+      "search_images_placeholder": "Szukaj obrazów..."
+    }
+  },
+  "photos_page": {
+    "title": "Oś czasu"
+  },
+  "places_page": {
+    "title": "Miejsca"
+  },
+  "routes": {
+    "page_not_found": "Nie znaleziono strony"
+  },
+  "settings": {
+    "concurrent_workers": {
+      "description": "Maksymalna liczba zadań skanera, które mogą być uruchomione jednocześnie",
+      "title": "Liczba zadań skanera"
+    },
+    "logout": "Wyloguj",
+    "periodic_scanner": {
+      "checkbox_label": "Włącz skaner okresowy",
+      "field": {
+        "description": "Jak często skaner powinien wykonywać automatyczne skanowanie dla wszystkich użytkowników",
+        "label": "Interwał skanowania okresowego"
+      },
+      "interval_unit": {
+        "days": "Dni",
+        "hour": "Godzin",
+        "minutes": "Minut",
+        "months": "Miesięcy",
+        "seconds": "Sekund"
+      },
+      "title": "Skaner okresowy"
+    },
+    "scanner": {
+      "description": "Skanuje wszystkich użytkowników w poszukiwaniu nowych lub zaktualizowanych mediów",
+      "scan_all_users": "Przeskanuj wszystkich użytkowników",
+      "title": "Skaner"
+    },
+    "user_preferences": {
+      "change_language": {
+        "description": "Zmień język strony dla tego użytkownika",
+        "label": "Język witryny"
+      },
+      "language_selector": {
+        "placeholder": "Wybierz język"
+      },
+      "theme": {
+        "auto": {
+          "label": "Taki jak system"
+        },
+        "dark": {
+          "label": "Ciemny"
+        },
+        "description": "Zmień wygląd strony",
+        "light": {
+          "label": "Jasny"
+        },
+        "title": "Motyw"
+      },
+      "title": "Preferencje użytkownika"
+    },
+    "users": {
+      "add_user": {
+        "submit": "Dodaj użytkownika"
+      },
+      "confirm_delete_user": {
+        "action": "Usuń {{user}}",
+        "description": "<0>Czy jesteś pewien, że chcesz usunąć <1></1>?</0><p>Tej czynności nie można cofnąć</p>",
+        "title": "Usuń użytkownika"
+      },
+      "password_reset": {
+        "description": "Zmiana hasła dla <1>{{username}}</1>",
+        "form": {
+          "label": "Nowe hasło",
+          "placeholder": "hasło",
+          "submit": "Zmień hasło"
+        },
+        "title": "Zmień hasło"
+      },
+      "table": {
+        "column_names": {
+          "action": "Akcja",
+          "capabilities": "Możliwości",
+          "photo_path": "Ścieżka zdjęć",
+          "username": "Nazwa użytkownika"
+        },
+        "new_user": "Nowy użytkownik",
+        "row": {
+          "action": {
+            "change_password": "Zmień hasła",
+            "delete": "Usuń",
+            "edit": "Edytuj",
+            "scan": "Skanuj"
+          }
+        }
+      },
+      "title": "Użytkownicy"
+    },
+    "version_info": {
+      "build_date_title": "Data kompilacji",
+      "title": "Wersja Photoview",
+      "version_title": "Wersja produkcyjna"
+    }
+  },
+  "share_page": {
+    "media": {
+      "title": "Udostępnione"
+    },
+    "protected_share": {
+      "description": "Ten udział jest chroniony hasłem.",
+      "password_required_error": "Hasło jest wymagane",
+      "title": "Udział chroniony"
+    },
+    "share_not_found": "Nie znaleziono udziału",
+    "share_not_found_description": "Może udział wygasł lub został usunięty.",
+    "wrong_password": "Błędne hasło, proszę spróbować ponownie."
+  },
+  "sidebar": {
+    "album": {
+      "album_cover": "Okładka albumu",
+      "download": {
+        "high-resolutions": {
+          "description": "Wysokiej rozdzielczości zdjęcia typu jpeg z obrazów RAW",
+          "title": "Wysokie rozdzielczości"
+        },
+        "originals": {
+          "description": "Oryginalne zdjęcia i filmy",
+          "title": "Oryginały"
+        },
+        "thumbnails": {
+          "description": "Zdjęcia o niskiej rozdzielczości, bez filmów",
+          "title": "Miniatury"
+        },
+        "web-videos": {
+          "description": "Filmy zoptymalizowane pod kątem sieci",
+          "title": "Przekonwertowane filmy"
+        }
+      },
+      "reset_cover": "Zresetuj zdjęcie okładki",
+      "set_cover": "Ustaw jako zdjęcie okładki albumu",
+      "title_placeholder": "Tytuł albumu"
+    },
+    "download": {
+      "filesize": {
+        "byte_one": "{{count}} bajt",
+        "byte_other": "{{count}} bajty",
+        "byte_few": "",
+        "byte_many": "",
+        "giga_byte_one": "",
+        "giga_byte_few": "",
+        "giga_byte_many": "",
+        "giga_byte_other": "",
+        "kilo_byte_one": "",
+        "kilo_byte_few": "",
+        "kilo_byte_many": "",
+        "kilo_byte_other": "",
+        "mega_byte_one": "",
+        "mega_byte_few": "",
+        "mega_byte_many": "",
+        "mega_byte_other": "",
+        "tera_byte_one": "",
+        "tera_byte_few": "",
+        "tera_byte_many": "",
+        "tera_byte_other": ""
+      },
+      "table_columns": {
+        "dimensions": "Wymiary",
+        "file_size": "Rozmiar",
+        "file_type": "Typ",
+        "name": "Nazwa"
+      },
+      "title": "Pobierz"
+    },
+    "location": {
+      "title": "Lokalizacja"
+    },
+    "media": {
+      "album_path": "Ścieżka albumu",
+      "exif": {
+        "exposure_program": {
+          "action_program": "Program działania",
+          "aperture_priority": "Priorytet przysłony",
+          "bulb": "Lampa",
+          "creative_program": "Program kreatywny",
+          "landscape_mode": "Tryb krajobrazowy",
+          "manual": "Ręczny",
+          "normal_program": "Normalny program",
+          "not_defined": "Nieokreślony",
+          "portrait_mode": "Tryb portretowy",
+          "shutter_priority": "Priorytet migawki"
+        },
+        "flash": {
+          "auto": "Auto",
+          "did_not_fire": "Bez błysku",
+          "fired": "Błysk",
+          "no_flash": "Bez lampy",
+          "no_flash_function": "Brak lampy błyskowej",
+          "off": "Wyłączona",
+          "on": "Włączona",
+          "red_eye_reduction": "Redukcja efektu czerwonych oczu",
+          "return_detected": "Wykryto powrót",
+          "return_not_detected": "Nie wykryto powrotu"
+        },
+        "name": {
+          "aperture": "Przysłona",
+          "camera": "Aparat ",
+          "coordinates": "",
+          "date_shot": "Data wykonania",
+          "exposure": "Ekspozycja",
+          "exposure_program": "Program",
+          "flash": "Lampa",
+          "focal_length": "Ogniskowa",
+          "iso": "ISO",
+          "lens": "Obiektyw",
+          "maker": "Twórca"
+        }
+      }
+    },
+    "people": {
+      "action_label": {
+        "detach_image": "Odłącz zdjęcie",
+        "merge_face": "Połącz twarz",
+        "move_face": "Przesuń twarz"
+      },
+      "confirm_image_detach": "Czy na pewno chcesz odłączyć to zdjęcie?",
+      "title": "Ludzie"
+    },
+    "sharing": {
+      "add_share": "Dodaj udział",
+      "copy_link": "Skopiuj link",
+      "delete": "Usuń",
+      "more": "Więcej",
+      "no_shares_found": "Nie znaleziono udostępnionych",
+      "public_link": "Link publiczny",
+      "title": "Opcje udostępniania"
+    }
+  },
+  "sidemenu": {
+    "albums": "Albumy",
+    "people": "Ludzie",
+    "photos": "Zdjęcia",
+    "places": "Miejsca",
+    "settings": "Ustawienia"
+  },
+  "timeline_filter": {
+    "date": {
+      "dropdown_all": "Od dziś",
+      "dropdown_year": "{{year}} i wcześniej",
+      "label": "Data"
+    }
+  },
+  "title": {
+    "loading_album": "Ładowanie albumu",
+    "login": "Logowanie",
+    "people": "Ludzie",
+    "settings": "Ustawienia"
+  }
+}

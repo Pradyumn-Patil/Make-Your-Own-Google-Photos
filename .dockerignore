@@ -1,0 +1,15 @@
+.git
+.gitignore
+.prettierrc
+.eslintcache
+.vscode
+.env
+example.env
+photos_path
+screenshots
+
+ui/node_modules/
+ui/build/
+ui/.cache/
+
+api/photo_cache
